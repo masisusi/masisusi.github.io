@@ -1,0 +1,36 @@
+.header-example {
+    font-size:xx-large ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #0a780af9 ;
+    background-color: #e3d5b4f9 ;
+    border: 5px solid #ad9a0bf1;
+    text-align: center;
+    padding-top: 5px ;
+    padding-bottom: 5px ;
+}
+
+.color-example {
+    color:darkgreen ;
+    background-color: #e3d5b4f9 ;
+    border:5px solid #ad9a0bf1 ;
+    padding-inline-start:5% ;
+}
+
+.list-example{
+    color: rgb(0, 100, 0) ;
+    list-style-type:circle ;
+}
+
+.text-example{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size: larger ;
+    text-transform: capitalize ;
+    text-decoration: underline ;    
+}
+
+.div-example{
+    background-color:antiquewhite ;
+    border: 3px solid rgb(115, 146, 61) ;
+    border-radius: 10px;
+    padding: 10px;
+}
