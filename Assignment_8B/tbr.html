@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>TBR</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="my-styles.css">
+  <link rel="icon" type="image/png" href="images/crochet-bee.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+
+<div class="w3-content" style="max-width:1400px">
+
+<header class="w3-container w3-center w3-padding-32" id="header" style="display: flex; align-items: center; justify-content: space-between;">
+  <div style="flex: 1; text-align: left;">
+    <img src="images/lizurd.jpg" alt="Site logo" style="width: 120px; border-radius:20%; padding: 10px;">
+  </div>
+
+  <div style="flex: 2; text-align: center;">
+    <h1><b>To be read</b></h1>
+  </div>
+
+  <div style="position:relative; flex:1; margin-right: 20px;">
+    <input class="w3-input w3-animate-input" type="text"
+      style="padding-left:30px; width:100%" placeholder="Search">
+    <span class="glyphicon glyphicon-search" id="search">
+    </span>
+  </div>
+</header>
+
+<div class="navbar navbar-default" id="nav">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle visible-xs" data-toggle="collapse"
+      data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-center">
+              <li><a href="index.html">Main page</a></li>
+              <li><a href="bookshelf.html">Bookshelf</a></li>
+              <li><a href="tbr.html">TBR</a></li>
+              <li><a href="playlists.html">Playlists</a></li>
+              <li><a href="#footer">End of page</a></li>
+        </ul>
+    </div>
+  </div>
+</div>
+
+<div class="w3-row">
+<div  class="w3-col l8 s12">
+  <div class="w3-margin w3-white w3-container content">
+    <h3>These are all the books that I want to read but haven't gotten around to them yet.
+      <br>On the right side there is progress bars to keep track of the book series I'm reading.
+    </h3>
+    
+    <img class="image" src="images/persy.jpg" 
+      alt="Stack of Percy Jackson books">
+                
+    <img class="image" src="images/lizurd.jpg" 
+      alt="DIY Crochet lizard">
+
+    <img class="image" src="images/batbooks.jpg" 
+      alt="Bat hanging froma shelf">
+
+    <img class="image" src="images/muumit.jpg" 
+      alt="Moomin books in a circle.">
+
+    <img class="image" src="images/persy.jpg" 
+      alt="Stack of Percy Jackson books">
+                
+    <img class="image" src="images/lizurd.jpg" 
+      alt="DIY Crochet lizard">
+
+    <img class="image" src="images/batbooks.jpg" 
+      alt="Bat hanging from a shelf.">
+
+    <img class="image" src="images/muumit.jpg" 
+      alt="Moomin books in a circle.">
+  </div>
+</div>
+
+  <div class="w3-col l4 s12">
+    <div id="progress" class="w3-container w3-margin">
+      <h4><b>Reading progresses:</b></h4>
+      <label for="progress1">Series of Unfortunate Events:</label><br>
+      <progress id="progress1" value="2" max="13"></progress>
+      <span> 2 / 13 books</span>
+      <br>
+      <br>
+      <label for="progress2">Muumi-kirjat:</label><br>
+      <progress id="progress2" value="6" max="9"></progress>
+      <span> 6 / 9 books</span> 
+    </div>
+  </div>
+</div>
+
+</div><br>
+
+<footer id="footer">
+  <p> <a href="#header">Top of the page</a></p>
+  <p>&copy; 2025 Marika</p>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+
+  <!-- Tänne SOME-linkit! -->
+  <div style="text-align: right;">
+    <a href="https://www.instagram.com" target="_blank" class="w3-margin-right" aria-label="Instagram">
+      <i class="bi bi-instagram" style="font-size: 1.8em;"></i>
+    </a>
+    <a href="https://www.twitter.com" target="_blank" class="w3-margin-right" aria-label="X (Twitter)">
+      <i class="bi bi-twitter-x" style="font-size: 1.8em;"></i>
+    </a>
+    <a href="https://www.tiktok.com" target="_blank" aria-label="TikTok">
+      <i class="bi bi-tiktok" style="font-size: 1.8em;"></i>
+    </a>
+  </div>
+</footer>
+
+
+<!--pidetään Bootstrap ja jQueary täällä alareunassa jotta sivun latautuminen ei hidastu-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
